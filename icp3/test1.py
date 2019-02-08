@@ -23,9 +23,9 @@ class FulltimeEmployee(Employee):
         Employee.__init__(self,name,family,salary,department)
 
 
-emp1 = FulltimeEmployee('akhila','atluri','7000','CS');
-emp2 = FulltimeEmployee('chandana','atluri','5000','ECE');
-emp3 = FulltimeEmployee('keerthi','jagarlamudi','4000','CS');
+emp1 = FulltimeEmployee('pravalhika','kampally','1000','CS');
+emp2 = FulltimeEmployee('tejaswi','ayyadapu','2000','ECE');
+emp3 = FulltimeEmployee('sweety','shetty','3000','CS');
 print(FulltimeEmployee.empCount)
 print(FulltimeEmployee.empSal)
 avgSal = FulltimeEmployee.avg_salary(Employee);
