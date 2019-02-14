@@ -15,7 +15,8 @@ bsObj = BeautifulSoup(html.content, "html.parser")
 all_tables = bsObj.find_all('table', class_ ='wikitable')[0]
 #print(all_tables[0])
 
-f = open('vin.html', 'a', encoding="utf-8")
+f = open('pravs.html', 'a', enco
+ding="utf-8")
 rows = all_tables.findAll('tr')[2:]
 #print(rows[0].th.a.string)
 i = 1
