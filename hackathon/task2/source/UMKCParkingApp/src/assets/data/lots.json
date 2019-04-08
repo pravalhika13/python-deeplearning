@@ -1,0 +1,64 @@
+[
+      {
+    "_id":         1,
+    "name":       "Rockhill Parking Structure",
+    "address":    "5277 Charlotte St, Kansas City, MO 64110, USA",
+    "location" : {
+      "lat": 39.03205,
+      "lng": -94.5765
+    },
+    "capacity":  900,
+    "group":      1,
+    "type":       "student"
+  },
+  {
+    "_id":         2,
+    "name":       "UMKC Parking Lot 4",
+    "address":    "4921 Rockhill Rd, Kansas City, MO 64110",
+    "location" : {
+      "lat": 39.0363009,
+      "lng": -94.576883
+    },
+    "capacity":  330,
+    "group":      2,
+    "type":       "student"
+  },
+  {
+    "_id":         3,
+    "name":       "UMKC School of Medicine Lot",
+    "address":    "2411 Holmes St., Kansas City, MO 64110",
+    "location" : {
+      "lat": 39.034124,
+      "lng": -94.572823
+    },
+    "capacity":  200,
+    "group":      4,
+    "type":       "faculty"
+  },
+  {
+    "_id":         4,
+    "name":       "Cherry street parking garage",
+    "address":    "E 50th St., Kansas City, MO 64110",
+    "location" : {
+      "lat": 39.032288,
+      "lng": -94.463735
+
+
+    },
+    "capacity":  150,
+    "group":      4,
+    "type":       "student"
+  },
+  {
+    "_id":         5,
+    "name":       "51st Street and Troost Ave",
+    "address":    "51st Street and Troost Ave, Kansas City, MO 64110",
+    "location" : {
+      "lat": 39.743943,
+      "lng": -105.020089
+  },
+  "capacity":  100,
+  "group":      5,
+  "type":       "student"
+}
+]

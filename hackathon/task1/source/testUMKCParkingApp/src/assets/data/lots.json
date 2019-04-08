@@ -1,0 +1,51 @@
+[
+{
+    "id":         1,
+    "name":       "UMKC Parking Lot 11",
+    "maxNumber":  20,
+    "group":      1,
+    "type":       "faculty"
+},
+{
+    "id":         2,
+    "name":       "UMKC Parking Lot 9",
+    "maxNumber":  100,
+    "group":      2,
+    "type":       "student"
+},
+{
+    "id":         3,
+    "name":       "UMKC Parking Lot 57",
+    "maxNumber":  15,
+    "group":      3,
+    "type":       "faculty"
+},
+{
+    "id":         4,
+    "name":       "UMKC Parking Lot 10",
+    "maxNumber":  20,
+    "group":      4,
+    "type":       "faculty"
+},
+{
+    "id":         5,
+    "name":       "UMKC Parking Lot 4",
+    "maxNumber":  60,
+    "group":      5,
+    "type":       "metered"
+},
+{
+    "id":         6,
+    "name":       "UMKC Parking Lot 3",
+    "maxNumber":  330,
+    "group":      6,
+    "type":       "student"
+},
+{
+    "id":         7,
+    "name":       "Rockhill Parking Structure",
+    "maxNumber":  900,
+    "group":      7,
+    "type":       "student"
+}
+]

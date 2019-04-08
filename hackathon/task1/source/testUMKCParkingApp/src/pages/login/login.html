@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-grid style="height: 100%; justify-content: center;">
+        <form>
+            <div class="container">
+                <ion-row justify-content-center>
+                    <h2>UMKC Parking App</h2>
+                </ion-row>
+                <ion-row justify-content-center>
+                    <ion-col style="text-align: right;">
+                        <label for="id">ID : </label>
+                    </ion-col>
+                    <ion-col>    
+                        <input type="text" placeholder="Enter Username" name="id" required>
+                    </ion-col>
+                </ion-row>
+                <ion-row justify-content-center>
+                    <ion-col style="text-align: right;">
+                    <label for="pw">Password : </label>
+                    </ion-col>
+                    <ion-col>
+                        <input type="password" placeholder="Enter Password" name="pw" required>
+                    </ion-col>
+                </ion-row>
+                <ion-row justify-content-center>
+                    <button ion-button type="submit" (click)="login()">Login</button>
+                    <button ion-button type="submit" (click)="goToSignUp()">Sign up</button>
+                </ion-row>
+            </div>
+        
+        </form>
+    </ion-grid>
+
+</ion-content>

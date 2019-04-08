@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("5baec4342990684d0874c18a"), 
+    "timeReported" : ISODate("2018-09-29T00:15:48.897+0000"), 
+    "availability" : 0.8, 
+    "parkingLot_id" : ObjectId("5baec1612990684d0874c165"), 
+    "user_id" : ObjectId("5baec0bd2990684d0874c160")
+}

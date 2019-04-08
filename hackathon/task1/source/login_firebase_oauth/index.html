@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Weather</title>
+</head>
+<body>
+
+<h1>Hello <span id="clientName"> </span> </h1>
+<img id="clientPhoto" src="">
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBY22Zfqz4Z6McpY8J8QchMuI_WpcyWJxk",
+        authDomain: "exampleapi-b8051.firebaseapp.com",
+        databaseURL: "https://exampleapi-b8051.firebaseio.com",
+        projectId: "exampleapi-b8051",
+        storageBucket: "exampleapi-b8051.appspot.com",
+        messagingSenderId: "91897472019"
+    };
+    firebase.initializeApp(config);
+
+    function login(){
+        function newLoginHappened(user)
+        {
+            if(user){
+                //user signed in
+                app(user);
+            }
+            else
+            {
+                var provider = new firebase.auth.GoogleAuthProvider();
+                firebase.auth().signInWithRedirect(provider);
+
+            }
+        }
+
+        firebase.auth().onAuthStateChanged(newLoginHappened);
+    }
+
+    function app(user){
+        //user.displayName
+        //user.email
+        //user.uid
+        document.getElementById("clientName").innerHTML=user.displayName;
+        document.getElementById("clientPhoto").setAttribute("src", user.photoURL);
+
+
+    }
+
+    window.onload=login;
+</script>
+</html>

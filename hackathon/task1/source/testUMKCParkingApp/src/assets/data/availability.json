@@ -1,0 +1,51 @@
+[
+    {
+    "id":             1,
+    "parkingLotId":   1,
+    "userId":         "gregLogin",
+    "timeReported":   1538189731656,
+    "availability":   15
+    },
+    {
+    "id":             2,
+    "parkingLotId":   3,
+    "userId":         "gregLogin",
+    "timeReported":   1538189913010,
+    "availability":   10
+    },
+    {
+    "id":             3,
+    "parkingLotId":   2,
+    "userId":         "gregLogin",
+    "timeReported":   1538189899338,
+    "availability":   90
+    },
+    {
+    "id":             4,
+    "parkingLotId":   4,
+    "userId":         "gregLogin",
+    "timeReported":   1538189925161,
+    "availability":   18
+    },
+    {
+    "id":             5,
+    "parkingLotId":   5,
+    "userId":         "gregLogin",
+    "timeReported":   1538189936380,
+    "availability":   50
+    },
+    {
+    "id":             6,
+    "parkingLotId":   6,
+    "userId":         "gregLogin",
+    "timeReported":   1538189948905,
+    "availability":   300
+    },
+    {
+    "id":             7,
+    "parkingLotId":   7,
+    "userId":         "gregLogin",
+    "timeReported":   1538189960851,
+    "availability":   800
+    }
+]

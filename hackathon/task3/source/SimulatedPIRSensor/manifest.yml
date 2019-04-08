@@ -1,0 +1,11 @@
+---
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: device-simulator-for-ibm-iot
+  host: device-simulator-for-ibm-iot
+  disk_quota: 1024M
+  command: node app.js
+  buildpack: sdk-for-nodejs

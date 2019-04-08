@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("5baec0bd2990684d0874c160"), 
+    "name" : "Testuser1", 
+    "umkcId" : "tu0101", 
+    "type" : "Student", 
+    "password" : "testPassword"
+}

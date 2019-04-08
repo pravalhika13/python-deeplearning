@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("5baec1612990684d0874c165"), 
+    "group" : "Permit", 
+    "type" : "Student", 
+    "maxCapacity" : "20", 
+    "number" : NumberInt(1)
+}
